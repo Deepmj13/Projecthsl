@@ -78,7 +78,7 @@ section{
 	font-size:1.9rem;
 }
 .hero .navbar ul a:hover{
-	color:#ff4500;
+	color:var(--primary-font);
 	transition: 300ms;
 }
 .hero .container{
@@ -164,7 +164,7 @@ section{
 	content: "";
 	width:60px;
 	height:2px;
-	background:#FF4500;
+	background:var(--primary-font);
 	border:none;
 	position:absolute;
 	bottom:-3px;
@@ -267,7 +267,7 @@ section{
 	width:70%;height: 3px;
 	border: none;
 	border-radius:2px;
-	background:#FF4500;
+	background:var(--primary-font);
 }
 .about-us .Suggestion p{
 	font-size: 1.4rem;
@@ -324,7 +324,7 @@ section{
 	bottom:0;left:50%;
 	transform:translate(-50%);
 	width:60%;height: 3px;
-	background: #FF4500;
+	background: var(--primary-font);
 	border:none;border-radius: 3px;
 }
 .footer h3{
